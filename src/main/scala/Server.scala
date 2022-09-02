@@ -4,7 +4,7 @@
 //  @cask.get("/")
 //  def hello(): String = {
 //    "hello world! \n" +
-//      "من مست مستم بابا حیدر مدد"
+//      "salam!"
 //  }
 //
 //  @cask.post("/do-thing")
