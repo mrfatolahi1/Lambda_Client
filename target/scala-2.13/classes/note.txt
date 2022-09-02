@@ -1,0 +1,9 @@
+eventQueue.add(row)
+val data = ujson.read(row)
+createUserActivityEventObject(
+  data("courseId").str,
+  data("userId").str,
+  data("sessionId").str,
+  data("activityEvent").str,
+  LocalDateTime.parse(data("time").str),
+)
